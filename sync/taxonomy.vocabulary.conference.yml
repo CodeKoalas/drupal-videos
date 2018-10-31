@@ -1,0 +1,9 @@
+uuid: 27b48c17-c71c-4144-a681-660cf8cac093
+langcode: en
+status: true
+dependencies: {  }
+name: Conference
+vid: conference
+description: 'Use camp to group videos from similar Conferences.'
+hierarchy: 0
+weight: 0

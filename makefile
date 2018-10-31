@@ -4,7 +4,7 @@ default: up
 
 DRUPAL_ROOT ?= /var/www/site/docroot
 PROJECT_ROOT ?= /var/www/site
-IMAGE_NAME = drupal-project
+IMAGE_NAME = drupal-videos
 
 # Spin up the docker container as defined in the docker-compose.yaml
 up:

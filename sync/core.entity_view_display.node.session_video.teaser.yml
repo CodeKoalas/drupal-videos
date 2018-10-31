@@ -1,0 +1,30 @@
+uuid: 847966ec-0baa-486a-ae09-ed78db7ca278
+langcode: en
+status: true
+dependencies:
+  config:
+    - core.entity_view_mode.node.teaser
+    - field.field.node.session_video.body
+    - node.type.session_video
+  module:
+    - text
+    - user
+id: node.session_video.teaser
+targetEntityType: node
+bundle: session_video
+mode: teaser
+content:
+  body:
+    label: hidden
+    type: text_summary_or_trimmed
+    weight: 101
+    settings:
+      trim_length: 600
+    third_party_settings: {  }
+    region: content
+  links:
+    weight: 100
+    settings: {  }
+    third_party_settings: {  }
+    region: content
+hidden: {  }

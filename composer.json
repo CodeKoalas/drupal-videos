@@ -19,7 +19,9 @@
         "composer/installers": "^1.2",
         "cweagans/composer-patches": "^1.6",
         "drupal-composer/drupal-scaffold": "^2.2",
-        "drupal/admin_toolbar": "~1.0",
+        "drupal/admin_toolbar": "^1.24",
+        "drupal/admin_toolbar_tools": "^1.24",
+        "drupal/adminimal_admin_toolbar": "^1.8",
         "drupal/adminimal_theme": "~1.0",
         "drupal/advagg": "^3.5",
         "drupal/blazy": "~1.0",
@@ -52,6 +54,7 @@
         "drupal/recaptcha": "^2.3",
         "drupal/token": "~1.0",
         "drupal/twig_tweak": "^2.0",
+        "drupal/youtube": "^1.0@beta",
         "webflo/drupal-finder": "^0.3.0",
         "webmozart/path-util": "^2.3"
     },

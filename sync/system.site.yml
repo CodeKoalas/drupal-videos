@@ -1,0 +1,14 @@
+uuid: cf7fdffe-8c92-4867-84ba-ba01bb224906
+name: 'Drupal Videos'
+mail: info@drupalvideos.com
+slogan: ''
+page:
+  403: ''
+  404: ''
+  front: /node
+admin_compact_mode: false
+weight_select_max: 100
+langcode: en
+default_langcode: en
+_core:
+  default_config_hash: yXadRE77Va-G6dxhd2kPYapAvbnSvTF6hO4oXiOEynI
