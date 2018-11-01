@@ -1,0 +1,24 @@
+<?php
+
+/**
+ * @file
+ * Contains youtube_playlist_importer.module.
+ */
+
+use Drupal\Core\Routing\RouteMatchInterface;
+
+/**
+ * Implements hook_help().
+ */
+function youtube_playlist_importer_help($route_name, RouteMatchInterface $route_match) {
+  switch ($route_name) {
+    // Main module help for the youtube_playlist_importer module.
+    case 'help.page.youtube_playlist_importer':
+      $output = '';
+      $output .= '<h3>' . t('About') . '</h3>';
+      $output .= '<p>' . t('Import single Youtube videos as standalone entities from a single Youtube playlist.') . '</p>';
+      return $output;
+
+    default:
+  }
+}

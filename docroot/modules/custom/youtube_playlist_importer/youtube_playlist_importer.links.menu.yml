@@ -1,0 +1,21 @@
+
+# Youtube Video menu items definition
+entity.youtube_video.collection:
+  title: 'Youtube Video list'
+  route_name: entity.youtube_video.collection
+  description: 'List Youtube Video entities'
+  parent: system.admin_structure
+  weight: 100
+
+youtube_video.admin.structure.settings:
+  title: Youtube Video settings
+  description: 'Configure Youtube Video entities'
+  route_name: youtube_video.settings
+  parent: system.admin_structure
+youtube_playlist_importer.youtube_importer_config_form:
+  title: 'Youtube Importer'
+  route_name: youtube_playlist_importer.youtube_importer_config_form
+  description: 'Import Youtube Playlist Configuration'
+  parent: system.admin_config_system
+  weight: 99
+

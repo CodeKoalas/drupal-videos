@@ -55,6 +55,7 @@
         "drupal/token": "~1.0",
         "drupal/twig_tweak": "^2.0",
         "drupal/youtube": "^1.0@beta",
+        "google/apiclient": "~2.0",
         "webflo/drupal-finder": "^0.3.0",
         "webmozart/path-util": "^2.3"
     },
