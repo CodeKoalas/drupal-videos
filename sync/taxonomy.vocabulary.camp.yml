@@ -1,0 +1,9 @@
+uuid: 2d434119-c18c-47bf-b81a-9829e6163a95
+langcode: en
+status: true
+dependencies: {  }
+name: Camp
+vid: camp
+description: "Use camp to group videos from similar Camps.\t"
+hierarchy: 0
+weight: 0
