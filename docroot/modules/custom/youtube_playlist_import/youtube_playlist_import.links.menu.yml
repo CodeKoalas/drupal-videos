@@ -1,0 +1,14 @@
+youtube_playlist_import.youtube_playlist_import_config:
+  title: 'Youtube Playlist Import Config'
+  route_name: youtube_playlist_import.youtube_playlist_import_config
+  description: 'Configure settings for the Youtube Playist Importer.'
+  parent: system.admin_config_system
+  weight: 99
+
+youtube_playlist_import.youtube_playlist_importer_form:
+  title: 'YoutubePlaylistImport'
+  route_name: youtube_playlist_import.youtube_playlist_importer_form
+  description: 'Import Youtube Playlists'
+  parent: system.admin_config_system
+  weight: 99
+

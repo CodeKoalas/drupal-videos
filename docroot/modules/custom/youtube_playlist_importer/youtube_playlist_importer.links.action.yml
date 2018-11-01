@@ -1,5 +1,0 @@
-entity.youtube_video.add_form:
-  route_name: entity.youtube_video.add_form
-  title: 'Add Youtube Video'
-  appears_on:
-    - entity.youtube_video.collection
