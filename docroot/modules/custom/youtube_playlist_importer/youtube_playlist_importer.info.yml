@@ -1,0 +1,5 @@
+name: Youtube Playlist Importer
+type: module
+description: Import single Youtube videos as standalone entities from a single Youtube playlist.
+core: 8.x
+package: Custom
