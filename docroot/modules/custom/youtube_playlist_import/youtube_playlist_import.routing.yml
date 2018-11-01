@@ -1,0 +1,22 @@
+
+youtube_playlist_import.youtube_playlist_import_config:
+  path: '/admin/config/youtube-playlist-import/config'
+  defaults:
+    _form: '\Drupal\youtube_playlist_import\Form\YoutubePlaylistImportConfig'
+    _title: 'YoutubePlaylistImportConfig'
+  requirements:
+    _permission: 'access administration pages'
+  options:
+    _admin_route: TRUE
+
+
+youtube_playlist_import.youtube_playlist_importer_form:
+  path: '/admin/config/youtube-playlist-import/import-form'
+  defaults:
+    _form: '\Drupal\youtube_playlist_import\Form\YoutubePlaylistImporterForm'
+    _title: 'YoutubePlaylistImporterForm'
+  requirements:
+    _permission: 'access administration pages'
+  options:
+    _admin_route: TRUE
+
